@@ -10,21 +10,22 @@
  - 多試幾次  
     隨機在不同的地方開始爬，看哪一次爬得最高
  - 隨機亂走  
-    有時候故意往「比較差」的方向走幾步（例如「模擬退火演算法」），看看能不能衝出小山谷，去尋找更大的目標  
-[程式碼]()  
+    有時候故意往「比較差」的方向走幾步（例如「模擬退火演算法」），看看能不能衝出小山谷，去尋找更大的目標     
+    
+[程式碼](https://github.com/shanghua0203/_alg/blob/main/HW6/climb.py)  
 
 ## 改良法  
 [AI Chat](https://gemini.google.com/share/bf236b7c12cd)  
 先隨便找一個答案，答通常很爛，然後透過類似逼近法的方式找出最佳答案  
-[程式碼]()  
+[程式碼](https://github.com/shanghua0203/_alg/blob/main/HW6/improve.py)  
 根據爬山演算法作改良
 
 ## 貪婪法
 [AI Chat](https://gemini.google.com/share/9e0aef811efa)  
 貪婪法是從零開始的演算法，為了追求速度，直接挑選最極端的方式開始找答案，找不出來的話會加入隨機，也就是隨機貪婪法，避免一樣的起手式陷入死胡同，若是還找不到答案，判斷此問題不適合用貪婪法時，則透過回溯法或動態規劃，慢慢尋找答案  
-[程式碼]()
+[程式碼](https://github.com/shanghua0203/_alg/blob/main/HW6/greedy.py)
 
 ## 梯度下降法
-[SI Chat](https://gemini.google.com/share/6eaec068f75c)  
+[AI Chat](https://gemini.google.com/share/6eaec068f75c)  
 用微分的方式找出大概要去的方向，直到損失函數最低的時候停下來，找出最接近的答案  
-[程式碼]()  
+[程式碼](https://github.com/shanghua0203/_alg/blob/main/HW6/gradient.py)  
