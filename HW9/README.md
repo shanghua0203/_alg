@@ -1,6 +1,6 @@
 111210505 吳尚樺
 -
-[AI Chat]()
+[AI Chat](https://gemini.google.com/share/cb05c594f7a2)
 
 ```
 開始推導：要把 'cat' 變成 'cut'
