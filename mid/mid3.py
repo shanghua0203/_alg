@@ -15,7 +15,7 @@ history_y = [f(x)]
 #開始學習
 for epoch in range(500):
     grad = 2 * x + 5  #x^2+5x 微分
-    x = x - lr * grad
+    x = x - lr * grad #更新狀態
     
     history_x.append(x)
     history_y.append(f(x))
